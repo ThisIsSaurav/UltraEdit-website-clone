@@ -1,0 +1,169 @@
+*{margin: 0;padding: 0;font-family: 'Segoe UI';}
+
+header{
+    /* border: 1px solid red; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+/* .logo{
+    border : 1px solid blue;
+}
+.menu{
+    border : 1px solid green;
+} */
+
+nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 90vw;
+    padding: 15px 0px;
+}
+.nav-child{
+    display: flex;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    
+}
+header nav ul li{
+    list-style: none;
+    /* border : 1px solid orange; */
+    cursor: pointer;
+    font-size: 15px;
+    width: 95px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul li:hover{
+  color: #4e4e4e;
+}
+.hamb-burger-menu{
+    display: none;
+}
+/* Main Section CSS  */
+main{
+    /* border : 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* CSS for Main box 1  */
+.main-1{
+    width: 80%;
+    /* border : 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10vh 12vw;
+}
+.main-1 .heading h1{
+    font-weight: 400;
+    margin-right: 15px;
+}
+.main-1 .heading h1 span{
+    font-weight: 700;
+}
+.main-1 .heading{
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 25px;
+}
+.main-1 h2{
+    text-align: center;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.main-1 button{
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #00b6d1;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-1 button:hover{
+    background-color: #009eb5;
+}
+
+/* CSS for Main box 2  */
+.main-2{
+    /* border : 1px solid red;   */
+    width: 80%;
+    /* border : 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.main-2 .version-section{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.main-2 .version-section img{
+   margin-left: 15px;
+}
+.main-2 .version-section h2{
+  margin: 0px 5px 0px 15px ;
+  font-weight: 400;
+}
+.main-2 .version-section p{
+font-size: 14px;
+}
+
+/* Css for download-section  */
+.download-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: 12px;
+}
+.download-box{
+    /* border : 1px solid red; */
+    background-color: #80808014;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.download-box span{
+    font-size: 20px;
+    padding: 15px;
+    font-weight: 700;
+    /* border : 1px solid blue; */
+}
+.download-box p{
+  font-size: 12px;
+  color: #7e7e7e;
+}
+.download-box .down-btn button{
+    width: 120px;
+    height: 35px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+}
+.down-btn{
+    margin-top: 20px;
+    padding: 12px;
+}
+.down-btn .d32-bit{
+  background-color: #00b6d1;
+}
+.down-btn .d64-bit{
+  background-color: #5cb85c;
+}
